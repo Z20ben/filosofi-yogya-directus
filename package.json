@@ -1,0 +1,17 @@
+{
+  "name": "filosofi-yogya-directus",
+  "version": "1.0.0",
+  "description": "Directus CMS backend for Filosofi Yogya project",
+  "scripts": {
+    "start": "directus start",
+    "dev": "directus start",
+    "bootstrap": "directus bootstrap",
+    "migrate": "directus database migrate:latest"
+  },
+  "keywords": ["directus", "cms", "filosofi-yogya"],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "directus": "^11.13.4"
+  }
+}

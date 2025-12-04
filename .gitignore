@@ -1,0 +1,27 @@
+# Environment variables
+.env
+
+# Database files (if using SQLite)
+*.db
+
+# Node modules
+node_modules/
+
+# Directus uploads and extensions
+uploads/
+extensions/
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
