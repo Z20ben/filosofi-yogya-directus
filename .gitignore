@@ -6,6 +6,7 @@
 
 # Node modules
 node_modules/
+package-lock.json
 
 # Directus uploads and extensions
 uploads/
