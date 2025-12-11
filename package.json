@@ -2,16 +2,24 @@
   "name": "filosofi-yogya-directus",
   "version": "1.0.0",
   "description": "Directus CMS backend for Filosofi Yogya project",
+  "type": "module",
   "scripts": {
     "start": "directus start",
     "dev": "directus start",
     "bootstrap": "directus bootstrap",
-    "migrate": "directus database migrate:latest"
+    "migrate": "directus database migrate:latest",
+	"setup:collections": "node scripts/setup-collections.js"
   },
-  "keywords": ["directus", "cms", "filosofi-yogya"],
+  "keywords": [
+    "directus",
+    "cms",
+    "filosofi-yogya"
+  ],
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "directus": "^11.13.4"
+    "@directus/sdk": "^20.2.0",
+    "directus": "^11.13.4",
+    "dotenv": "^17.2.3"
   }
 }

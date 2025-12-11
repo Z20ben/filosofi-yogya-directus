@@ -25,3 +25,11 @@ Thumbs.db
 .idea/
 *.swp
 *.swo
+
+# Markdown files
+*.md
+
+# Backups
+backups/
+
+# Keep only scripts folder
